@@ -1,6 +1,6 @@
 #include "NamespaceRedirect.h"
 
-namespace MAINA_MIRU_WINDOWS
+namespace MAINA_MIRU
 {
     [default_interface]
     runtimeclass MainPage : XAML_NAMESPACE.Controls.Page

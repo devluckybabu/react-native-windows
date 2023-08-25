@@ -6,7 +6,7 @@
 
 namespace activation = winrt::Windows::ApplicationModel::Activation;
 
-namespace winrt::MAINA_MIRU_WINDOWS::implementation
+namespace winrt::MAINA_MIRU::implementation
 {
     struct App : AppT<App>
     {
@@ -18,4 +18,4 @@ namespace winrt::MAINA_MIRU_WINDOWS::implementation
       private:
         using super = AppT<App>;
     };
-} // namespace winrt::MAINA_MIRU_WINDOWS::implementation
+} // namespace winrt::MAINA_MIRU::implementation

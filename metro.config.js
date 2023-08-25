@@ -7,6 +7,7 @@
 const fs = require('fs');
 const path = require('path');
 const { getDefaultConfig, mergeConfig } = require('@react-native/metro-config');
+
 const exclusionList = require('metro-config/src/defaults/exclusionList');
 
 const rnwPath = fs.realpathSync(
@@ -37,6 +38,5 @@ const config = {
     assetRegistryPath: 'react-native/Libraries/Image/AssetRegistry',
   },
 };
-
 
 module.exports = mergeConfig(getDefaultConfig(__dirname), config);

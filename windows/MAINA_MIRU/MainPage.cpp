@@ -9,7 +9,7 @@
 using namespace winrt;
 using namespace xaml;
 
-namespace winrt::MAINA_MIRU_WINDOWS::implementation
+namespace winrt::MAINA_MIRU::implementation
 {
     MainPage::MainPage()
     {

@@ -4,7 +4,7 @@
 
 using namespace winrt::Microsoft::ReactNative;
 
-namespace winrt::MAINA_MIRU_WINDOWS::implementation
+namespace winrt::MAINA_MIRU::implementation
 {
 
 void ReactPackageProvider::CreatePackage(IReactPackageBuilder const &packageBuilder) noexcept
@@ -12,4 +12,4 @@ void ReactPackageProvider::CreatePackage(IReactPackageBuilder const &packageBuil
     AddAttributedModules(packageBuilder, true);
 }
 
-} // namespace winrt::MAINA_MIRU_WINDOWS::implementation
+} // namespace winrt::MAINA_MIRU::implementation

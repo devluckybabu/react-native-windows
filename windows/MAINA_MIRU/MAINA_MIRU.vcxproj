@@ -6,9 +6,9 @@
     <CppWinRTOptimized>true</CppWinRTOptimized>
     <CppWinRTRootNamespaceAutoMerge>true</CppWinRTRootNamespaceAutoMerge>
     <MinimalCoreWin>true</MinimalCoreWin>
-    <ProjectGuid>{500d7109-ac42-4ac4-beb2-cf2d5ddcf59b}</ProjectGuid>
-    <ProjectName>MAINA_MIRU_WINDOWS</ProjectName>
-    <RootNamespace>MAINA_MIRU_WINDOWS</RootNamespace>
+    <ProjectGuid>{181aacee-a940-4da9-857b-dd9d9115b8e0}</ProjectGuid>
+    <ProjectName>MAINA_MIRU</ProjectName>
+    <RootNamespace>MAINA_MIRU</RootNamespace>
     <DefaultLanguage>en-US</DefaultLanguage>
     <MinimumVisualStudioVersion>17.0</MinimumVisualStudioVersion>
     <AppContainerApplication>true</AppContainerApplication>

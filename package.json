@@ -1,5 +1,5 @@
 {
-  "name": "MAINA_MIRU_WINDOWS",
+  "name": "MAINA_MIRU",
   "version": "0.0.1",
   "private": true,
   "scripts": {
@@ -8,10 +8,11 @@
     "lint": "eslint .",
     "start": "react-native start",
     "test": "jest",
+    "link": "npx react-native autolink-windows",
     "windows": "react-native run-windows"
   },
   "dependencies": {
-    "@react-native-async-storage/async-storage": "^1.18.2",
+    "@mainamiru/react-native-async-storage": "^1.19.4",
     "@react-navigation/bottom-tabs": "^6.5.8",
     "@react-navigation/native": "^6.1.7",
     "@react-navigation/stack": "^6.3.17",
@@ -22,7 +23,7 @@
     "react-native-paper": "^5.8.0",
     "react-native-reanimated": "^3.3.0",
     "react-native-safe-area-context": "^4.6.3",
-    "react-native-screens": "^3.22.0",
+    "react-native-screens": "^3.24.0",
     "react-native-vector-icons": "^9.2.0",
     "react-native-windows": "0.72.7"
   },
